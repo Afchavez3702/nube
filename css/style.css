@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 4em;
+    background-color: rgba(170, 17, 17, 0.767);
+    color: #fff;
+    position: fixed;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+nav li{
+    width: 9em;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+nav li:hover{
+    background-color: rgba(222, 184, 135, 0.815);
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+header{
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    align-items: center;  
+    padding: 4em 0em;  
+
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 560;
+    
+}
+section{
+    width: 100%;
+    height: 70vh;
+}
+.form-header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tabla-articulos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 70%;
+    height: auto;
+    margin-top: 2em;
+}
+table thead{
+    background-color: brown;
+    color: #fff;
+    border: none;
+    text-align: center;
+    height: 2em;
+}
+table tbody{
+    background-color: burlywood;
+    height: auto;
+}
+table thead td{
+    border: 10x solid brown;
+}
+button{
+    background-color: rgb(221, 141, 21);
+    border: none;
+    border-radius: 0.3em;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0.5em;
+    font-weight: 400;
+}
+button:hover{
+    background-color: rgb(248, 162, 32);
+
+}
+#nuevo{
+    width: 100%;
+    height: 25em;
+    padding-top: 2em;
+    
+}
+.nuevo-form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1em;
+}
+input{
+    width: 15em;
+    font-size: 17px;
+    border-radius: 0.2em;
+    padding: 0.2em;
+    border: 1px solid brown;
+}
+.input{
+    width: 20em;
+    height: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+footer{
+    background-color: brown;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    text-align: center;
+}
